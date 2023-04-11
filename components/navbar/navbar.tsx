@@ -50,9 +50,9 @@ function Navbar() {
           onClick={() => setOpen(!open)}
           className="flex flex-col gap-1 justify-center md:hidden"
         >
-          <div className="h-0.5 w-7 bg-white rounded-xl"></div>
-          <div className="h-0.5 w-7 bg-white rounded-xl"></div>
-          <div className="h-0.5 w-7 bg-white rounded-xl"></div>
+          <div className="h-0.5 w-8 bg-white rounded-xl"></div>
+          <div className="h-0.5 w-8 bg-white rounded-xl"></div>
+          <div className="h-0.5 w-8 bg-white rounded-xl"></div>
         </div>
       </div>
       {/*Mobile Menu  */}
