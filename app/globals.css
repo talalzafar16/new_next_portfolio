@@ -11,3 +11,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: radial-gradient(#312f2f,black)
 }
+
+input:focus~label{
+  color:rgba(255, 0, 0, 0.731);
+}

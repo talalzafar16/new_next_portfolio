@@ -19,11 +19,11 @@ export default function skills() {
     <div className="z-0 px-5 py-4 flex flex-col gap-6 mt-20 items-center">
       <div className="border-2 flex justify-center items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
         <span className="text-white material-icons">psychology</span>
-        <h1 className="text-white font-bold text-center text-2xl font-sans">
+        <h1 className="text-white font-bold text-center text-xl font-sans">
           SKILLS
         </h1>
       </div>
-      <div className="flex mt-7 flex-wrap justify-around items-center flex-grow gap-6">
+      <div className="flex mt-10 flex-wrap justify-around items-center flex-grow gap-6">
         <div
           className={`${styles.html} h-40 border-2 w-2/5 p-4 flex flex-col justify-center items-center  rounded-lg rounded-t-none border-t-0 drop-shadow-2xl border-orange-400`}
         >

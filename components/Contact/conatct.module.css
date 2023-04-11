@@ -1,0 +1,3 @@
+input:focus~label{
+    color:rgba(255, 0, 0, 0.731);
+}

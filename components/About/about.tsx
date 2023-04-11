@@ -6,7 +6,7 @@ export default function about() {
     <div className="px-5 py-4 flex flex-col gap-6 mt-20 items-center">
       <div className="border-2 flex justify-center items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
         <span className="text-white material-icons">person</span>
-        <h1 className="text-white font-bold text-center text-2xl font-sans">
+        <h1 className="text-white font-bold text-center text-xl font-sans">
           ABOUT
         </h1>
       </div>

@@ -3,6 +3,8 @@ import Navbar from "../components/navbar/navbar";
 import About from "../components/About/about";
 import Skills from "../components/Skills/skills";
 import Services from "../components/Services/services";
+import Portfolio from "../components/Portfolio/portfolio";
+import Contact from "../components/Contact/contact";
 
 export default function page() {
   return (
@@ -12,6 +14,8 @@ export default function page() {
       <About />
       <Skills />
       <Services/>
+      <Portfolio />
+      <Contact/>
     </div>
   );
 }
