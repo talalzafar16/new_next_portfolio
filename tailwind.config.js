@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
+      spacing: {
+        '34': '8rem',
+      }
+      ,colors:{
         SecondaryColor:"rgba(255, 0, 0, 0.731)"
       },
       fontFamily:{
