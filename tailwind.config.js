@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        SecondaryColor:"rgba(255, 0, 0, 0.731)"
+      },
       fontFamily:{
         "Dancing":'Dancing Script',
         "Oswald":"Oswald",
