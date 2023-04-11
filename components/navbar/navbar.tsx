@@ -71,7 +71,7 @@ function Navbar() {
       <div
         className={
           open
-            ? `${styles.overlayNavbar} absolute bg-black top-0 w-full `
+            ? `${styles.overlayNavbar} z-10 absolute bg-black top-0 w-full `
             : "hidden"
         }
       >
