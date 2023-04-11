@@ -4,6 +4,7 @@ import Image from 'next/image';
 import profilePic from '../../public/profilee.png';
 
 
+
 type Props = {}
 
 export default function Home({}: Props) {
@@ -15,7 +16,7 @@ export default function Home({}: Props) {
             <h3 className="text-2xl font-Kurale ">MERN Stack Developr And Designer</h3>
         </div>
         <div className="flex justify-center items-center">
-    <Image src={profilePic}  alt="profile pic" className='h-screen	w-auto'/>
+    <Image src={profilePic}  alt="profile pic" className='h-screen w-auto'/>
         </div>
     </div>
   )

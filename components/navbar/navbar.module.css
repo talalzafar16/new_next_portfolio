@@ -5,6 +5,7 @@
 .overlayNavbar div {
   animation: open1 0.8s linear;
 }
+
 @keyframes open {
   from {
     height: 0px;
