@@ -15,9 +15,9 @@ function Navbar() {
 
   return (
     <div className="sticky top-0">
-      <div className="flex text-white h-19 justify-between md:px-11 md:py-6 px-5 py-3">
+      <div className="flex text-white h-20 justify-between md:px-11 md:py-6 px-5 py-4">
         <div className="flex justify-center items-center">
-          <h3 className="font-Dancing md:text-3xl text-2xl">Talal</h3>
+          <h3 className="font-Dancing md:text-3xl">Talal</h3>
         </div>
         {/*Desktop Menu  */}
         <div className="hidden md:block">
