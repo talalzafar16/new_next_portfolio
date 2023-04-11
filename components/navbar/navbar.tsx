@@ -6,17 +6,17 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const [color, setColor] = useState(false);
 
-  function changeColor(){
-    if(window.scrollY>=90){
+  function changeColor() {
+    if (window.scrollY >= 90) {
       setColor(true);
-    }else{
+    } else {
       setColor(false);
     }
   }
-  if(typeof(window) !== "undefined"){
-    window.addEventListener("scroll",changeColor);
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", changeColor);
   }
-  
+
   function Close() {
     const elem = document.querySelector(`.${styles.overlayNavbar}`)!;
     elem.classList.add(styles.overlayNavbarOutro)!;
@@ -26,7 +26,13 @@ function Navbar() {
   }
 
   return (
-    <div className={color?"bg-black sticky top-0 duration-700 transition-all ease-in-out ":`sticky top-0`}>
+    <div
+      className={
+        color
+          ? "bg-black sticky top-0 duration-700 transition-all ease-in-out "
+          : `sticky top-0`
+      }
+    >
       <div className="flex  navbar text-white h-20 justify-between md:px-11 md:py-6 px-5 py-4">
         <div className="flex justify-center items-center">
           <h3 className="font-Dancing text-3xl">Talal</h3>

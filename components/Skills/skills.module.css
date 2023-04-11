@@ -1,39 +1,39 @@
-.html{
-    box-shadow: 2px 8px 18px -2px rgba(185,102,50,0.7);
+.html {
+  box-shadow: 2px 8px 18px -2px rgba(185, 102, 50, 0.7);
 }
-.css{
-    box-shadow: 2px 8px 18px -2px rgba(8, 136, 200, 0.7);
+.css {
+  box-shadow: 2px 8px 18px -2px rgba(8, 136, 200, 0.7);
 }
-.js{
-    box-shadow: 2px 8px 18px -2px rgba(239, 255, 11, 0.702);
+.js {
+  box-shadow: 2px 8px 18px -2px rgba(239, 255, 11, 0.702);
 }
-.ts{
-    box-shadow: 2px 8px 18px -2px rgba(70, 181, 236, 0.7);
+.ts {
+  box-shadow: 2px 8px 18px -2px rgba(70, 181, 236, 0.7);
 }
-.react{
-    box-shadow: 2px 8px 18px -2px rgba(64, 214, 240, 0.779);
+.react {
+  box-shadow: 2px 8px 18px -2px rgba(64, 214, 240, 0.779);
 }
-.next{
-    box-shadow: 2px 8px 18px -2px rgba(248, 248, 248, 0.779);
+.next {
+  box-shadow: 2px 8px 18px -2px rgba(248, 248, 248, 0.779);
 }
-.node{
-    box-shadow: 2px 8px 18px -2px rgba(1, 150, 21, 0.779);
+.node {
+  box-shadow: 2px 8px 18px -2px rgba(1, 150, 21, 0.779);
 }
-.fire{
-    box-shadow: 2px 8px 18px -2px rgba(18, 201, 242, 0.891);
+.fire {
+  box-shadow: 2px 8px 18px -2px rgba(18, 201, 242, 0.891);
 }
-.native{
-    box-shadow: 2px 8px 18px -2px rgba(137, 6, 198, 0.891);
+.native {
+  box-shadow: 2px 8px 18px -2px rgba(137, 6, 198, 0.891);
 }
-.tail{
-    box-shadow: 2px 8px 18px -2px rgba(18, 201, 242, 0.891);
+.tail {
+  box-shadow: 2px 8px 18px -2px rgba(18, 201, 242, 0.891);
 }
-.mongo{
-    box-shadow: 2px 8px 18px -2px rgba(10, 245, 41, 0.877);
+.mongo {
+  box-shadow: 2px 8px 18px -2px rgba(10, 245, 41, 0.877);
 }
-.python{
-    box-shadow: 2px 8px 18px -2px rgba(236, 252, 10, 0.952);
+.python {
+  box-shadow: 2px 8px 18px -2px rgba(236, 252, 10, 0.952);
 }
-.C{
-    box-shadow: 2px 8px 18px -2px rgba(48, 35, 224, 0.713);
+.C {
+  box-shadow: 2px 8px 18px -2px rgba(48, 35, 224, 0.713);
 }
