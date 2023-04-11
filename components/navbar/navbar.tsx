@@ -13,7 +13,9 @@ function Navbar() {
       setColor(false);
     }
   }
-  window.addEventListener("scroll",changeColor);
+  if(typeof(window) !== "undefined"){
+    window.addEventListener("scroll",changeColor);
+  }
   
   function Close() {
     const elem = document.querySelector(`.${styles.overlayNavbar}`)!;
