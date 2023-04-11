@@ -1,0 +1,53 @@
+/* ------------------Navbar animtaion Css-------------- */
+.overlayNavbar {
+  animation: open 0.4s linear;
+}
+.overlayNavbar div {
+  animation: open1 0.8s linear;
+}
+@keyframes open {
+  from {
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    height: 100vw;
+    opacity: 1;
+  }
+}
+@keyframes open1 {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.overlayNavbarOutro {
+  animation: close 0.4s ease-out both;
+}
+.overlayNavbarOutro div {
+  animation: close1 0.8s ease-out both;
+}
+@keyframes close {
+  from {
+    height: 100vh;
+    opacity: 1;
+  }
+  to {
+    height: 0px;
+    opacity: 0;
+  }
+}
+@keyframes close1 {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+}

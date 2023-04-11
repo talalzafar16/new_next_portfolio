@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        "Dancing":'Dancing Script',
+        "Oswald":"Oswald",
+        "Kurale":"Kurale"
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
