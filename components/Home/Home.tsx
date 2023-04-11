@@ -15,7 +15,7 @@ export default function Home({}: Props) {
             <h3 className="text-2xl font-Kurale ">MERN Stack Developr And Designer</h3>
         </div>
         <div className='flex justify-center mt-3'>
-    <Image src={profilePic}  alt="profile pic" className='h-4/6	w-auto'/>
+    <Image src={profilePic}  alt="profile pic" className='h-96	w-auto'/>
         </div>
     </div>
   )
