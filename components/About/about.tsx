@@ -11,7 +11,7 @@ export default function about() {
         </h1>
       </div>
       <div className="p-2">
-        <Image src={pic} alt="profile" className="mt-6 h-96 rounded-2xl " />
+        <Image src={pic} alt="profile" className="mt-6 rounded-2xl " />
       </div>
       <div>
         <p className="text-white font-Kurale text-justify">
