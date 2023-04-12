@@ -19,9 +19,14 @@ export default function about() {
         My love is software development, and I am a sophomore studying software engineering at NED University. I have spent the last year developing my abilities, learning new technologies, and pursuing a future in software development.
         I have worked on a wide range of technologies, as you can see in my skill categories, and I am well-versed in OOPs, DBMS, DS, and Web Engineering concepts.
         I have the skills to assist you with establishing, designing, or maintaining your website or mobile application. With a sharp eye for detail and a dedication to producing high-quality work, I am convinced that I can assist you in taking your project to the next level.
+        <br/>
         Let&apos;s work together to make your dreams come true.
+        <br/>
         You may find my CV below.
         </p>
+      </div>
+      <div className="flex mt-4 justify-center items-center">
+      <button className="hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-48 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">Download CV</button>
       </div>
     </div>
   );
