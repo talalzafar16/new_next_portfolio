@@ -15,7 +15,7 @@ export default function about() {
       </div>
       <div>
         <p className="text-white font-Kurale text-justify">
-        Hello! I&apos;m Talal Zafar, a Pakistan-based MERN Stack Developer of mobile and online applications. 
+        Hello! I&apos;m <span className="text-SecondaryColor">Talal Zafar</span>, a Pakistan-based <span className="text-SecondaryColor">MERN</span> Stack Developer of mobile and online applications. 
         My love is software development, and I am a sophomore studying software engineering at NED University. I have spent the last year developing my abilities, learning new technologies, and pursuing a future in software development.
         I have worked on a wide range of technologies, as you can see in my skill categories, and I am well-versed in OOPs, DBMS, DS, and Web Engineering concepts.
         I have the skills to assist you with establishing, designing, or maintaining your website or mobile application. With a sharp eye for detail and a dedication to producing high-quality work, I am convinced that I can assist you in taking your project to the next level.
