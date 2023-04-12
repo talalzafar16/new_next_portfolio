@@ -1,7 +1,7 @@
 "use client";
 import styles from "./services.module.css";
 function send(){
-  console.log("msg sent")
+  // console.log("msg sent")
 }
 
 function contact() {
