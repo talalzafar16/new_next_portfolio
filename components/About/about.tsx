@@ -20,9 +20,9 @@ export default function about() {
         I have worked on a wide range of technologies, as you can see in my skill categories, and I am well-versed in <span className="text-SecondaryColor">OOPs, DBMS, DS, and Web Engineering</span> concepts.
         I have the skills to assist you with establishing, designing, or maintaining your website or mobile application. With a sharp eye for detail and a dedication to producing high-quality work, I am convinced that I can assist you in taking your project to the next level.
         <br/>
-        Let&apos;s work together to make your dreams come true.
+        Let&apos;swork <span className="text-SecondaryColor">together</span> to make your dreams come true.
         <br/>
-        You may find my CV below.
+        You may find my <span className="text-SecondaryColor">CV</span> below.
         </p>
       </div>
       <div className="flex mt-3 justify-center items-center">
