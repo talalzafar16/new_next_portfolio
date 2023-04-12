@@ -14,7 +14,7 @@ function contact() {
         </h1>
       </div>
       <div className="self-start  mt-6">
-        <h1 className="text-white font-Kurale text-3xl">Let&apos;s Work<span className="text-SecondaryColor"> <h2>Together!</h2></span></h1>
+        <h1 className="text-white font-Kurale text-3xl">Let&apos;s Work<span className="text-SecondaryColor">Together!</span></h1>
         <h1 className="text-white font-bold font-Kurale text-xl mt-2">talalzafar84@gmail.com</h1>
       </div>
       <div className="w-full mt-4 flex flex-col gap-6">
