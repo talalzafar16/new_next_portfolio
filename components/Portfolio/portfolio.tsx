@@ -15,34 +15,37 @@ export default function portfolio() {
           PORTFOLIO
         </h1>
       </div>
-      <div className="w-full mt-10 flex flex-col gap-4">
-        <div className="flex flex-col gap-4 justify-center items-center w-full h-52">
-          <Image src={img1} alt="pic" className="hover:border-2 hover:border-SecondaryColor rounded-xl w-full" />
-          <h3 className="text-white font-Kurale text-xl self-start" >
+      <div className="self-start mt-6 font-Kurale text-white text-3xl">
+        Featured <span className="text-SecondaryColor">Projects</span>.
+      </div>
+      <div className="w-full mt-4 flex flex-col gap-8">
+        <div className="flex flex-col gap-4 justify-center items-center w-full group">
+          <Image src={img1} alt="pic" className="group-hover:border-3 group-hover:border-SecondaryColor rounded-xl w-full" />
+          <h3 className="group-hover:underline text-white font-Kurale text-xl self-start" >
           Bureau - Architecture Studio Website
             </h3>
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center w-full h-52">
-          <Image src={img2} alt="pic" className="rounded-xl w-full" />
-          <h3 className="text-white font-Kurale text-xl text-left self-start" >
+        <div className="flex flex-col gap-4  justify-center items-center w-full group">
+          <Image src={img2} alt="pic" className="rounded-xl w-full group-hover:border-3 group-hover:border-SecondaryColor" />
+          <h3 className="text-white font-Kurale text-xl text-left self-start group-hover:underline" >
             Moonex WordPress Theme
             </h3>
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center w-full h-52">
-          <Image src={img3} alt="pic" className="rounded-xl w-full" />
-          <h3 className="self-start text-white font-Kurale text-xl" >
+        <div className="flex flex-col gap-4 mt-4 justify-center items-center w-full group">
+          <Image src={img3} alt="pic" className="rounded-xl w-full group-hover:border-3 group-hover:border-SecondaryColor" />
+          <h3 className="self-start text-white font-Kurale text-xl group-hover:underline" >
           Taskly Dashboard
             </h3>
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center w-full h-52 ">
-          <Image src={img4} alt="pic" className="rounded-xl w-full" />
-          <h3 className="text-white self-start font-Kurale text-xl text-left" >
+        <div className="flex flex-col gap-4 mt-4  justify-center items-center w-full group">
+          <Image src={img4} alt="pic" className="rounded-xl w-full group-hover:border-3 group-hover:border-SecondaryColor" />
+          <h3 className="text-white self-start font-Kurale text-xl group-hover:underline text-left" >
             Moonex WordPress Theme
             </h3>
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center w-full h-52 ">
-          <Image src={img5} alt="pic" className="rounded-xl w-full" />
-          <h3 className="text-white font-Kurale self-start text-xl" >
+        <div className="flex flex-col gap-4 mt-4  justify-center items-center w-full group">
+          <Image src={img5} alt="pic" className="rounded-xl w-full group-hover:border-3 group-hover:border-SecondaryColor" />
+          <h3 className="text-white font-Kurale self-start text-xl group-hover:underline" >
             Moonex WordPress Theme
             </h3>
         </div>

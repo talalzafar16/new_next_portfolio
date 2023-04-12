@@ -11,8 +11,9 @@ export default function services() {
           SERVICES
         </h1>
       </div>
-      <div className="w-full mt-10">
-        <div className="flex justify-center items-center border-2 w-full h-52 rounded-2xl p-4">
+      <h1 className="text-white font-Kurale text-3xl self-start mt-6">My<span className="text-SecondaryColor"> Specializations</span> here.</h1>
+      <div className="w-full mt-4">
+        <div className="flex group hover:border-3 hover:border-SecondaryColor justify-center items-center border-2 w-full h-52 rounded-2xl p-4">
           <div className="text-white flex flex-col items-start">
             <h1 className="font-Kurale z-20 text-xl font-bold mb-4">
               Website Development
@@ -21,7 +22,7 @@ export default function services() {
               I build fully responsive and properly functional websites usnig
               latest technologies.
             </p>
-            <h2 className="font-Kurale font-base font-bold">10+ Projects</h2>
+            <h2 className="font-Kurale font-base font-bold group-hover:underline group-hover:underline-offset-2">10+ Projects</h2>
           </div>
           <span
             style={{ fontSize: "49px" }}
@@ -30,7 +31,7 @@ export default function services() {
             code_off
           </span>
         </div>
-        <div className="flex justify-center items-center border-2 w-full h-52 rounded-2xl p-4 mt-10">
+        <div className="flex justify-center group items-center hover:border-3  hover:border-SecondaryColor border-2 w-full h-52 rounded-2xl p-4 mt-10">
           <div className="text-white flex flex-col items-start">
             <h1 className="font-Kurale z-20 text-xl font-bold mb-4">
               App Development
@@ -39,7 +40,7 @@ export default function services() {
               I build fully operational and hybrid appliactions utilizing react
               native.
             </p>
-            <h2 className="font-Kurale font-base font-bold">6+ Projects</h2>
+            <h2 className="group-hover:underline font-Kurale font-base font-bold group-hover:underline-offset-2">6+ Projects</h2>
           </div>
           <span
             style={{ fontSize: "49px" }}
