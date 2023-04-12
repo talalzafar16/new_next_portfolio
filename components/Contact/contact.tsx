@@ -1,8 +1,8 @@
 "use client";
 import styles from "./services.module.css";
-function send(){
+// function send(){
   // console.log("msg sent")
-}
+// }
 
 function contact() {
   return (
@@ -39,7 +39,7 @@ function contact() {
         <label className=" text-white text-xl">Message</label>
         </div>
         <div className="flex mt-3 justify-center items-center">
-          <button onClick={()=>send()} className="group hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-48 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
+          <button className="group hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-48 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
         <span className="  text-black material-icons group-hover:text-SecondaryColor">mail</span>Send</button>
         </div>
       </div>
