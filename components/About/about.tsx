@@ -25,9 +25,10 @@ export default function about() {
         You may find my CV below.
         </p>
       </div>
-      <div className="flex mt-4 justify-center items-center">
-      <button className="hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-48 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">Download CV</button>
-      </div>
+      <div className="flex mt-3 justify-center items-center">
+          <button className="group hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-52 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
+        <span className="  text-black material-icons group-hover:text-SecondaryColor">arrow_circle_down</span>Download CV</button>
+        </div>
     </div>
   );
 }
