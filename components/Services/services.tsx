@@ -7,14 +7,13 @@ import {useState,useEffect} from 'react'
 
 
 function services() {
-  let [width,setWidth]=useState(window.innerWidth);
+  let [Width,setWidth]=useState(window.innerWidth);
   function handleResize() {
     setWidth(window.innerWidth)
   }
   if(typeof window !== "undefined"){
     window.addEventListener('resize', handleResize);
   }
-  console.log(width)
   return (
     <div className="px-5 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
       <div className="border-2 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
@@ -37,7 +36,7 @@ function services() {
             <h2 className="font-Kurale sm:text-lg font-base font-bold group-hover:underline group-hover:underline-offset-2">10+ Projects</h2>
           </div>
           <span
-            style={width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
+            style={Width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
             className="z-10 text-SecondaryColor material-icons"
           >
             code_off
@@ -55,7 +54,7 @@ function services() {
             <h2 className="group-hover:underline sm:text-lg font-Kurale font-base font-bold group-hover:underline-offset-2">6+ Projects</h2>
           </div>
           <span
-            style={width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
+            style={Width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
             className="z-10 text-SecondaryColor material-icons"
           >
             developer_mode
