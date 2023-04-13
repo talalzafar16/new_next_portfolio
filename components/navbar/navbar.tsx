@@ -33,7 +33,7 @@ function Navbar() {
           : `sticky top-0`
       }
     >
-      <div className="flex  navbar text-white h-20 justify-between md:px-11 md:py-6 px-5 py-4">
+      <div className="flex  navbar text-white h-20 justify-between md:px-11 md:py-6 px-5 py-4 sm:px-8">
         <div className="flex justify-center items-center">
           <h3 className="font-Dancing text-3xl">Talal</h3>
         </div>
