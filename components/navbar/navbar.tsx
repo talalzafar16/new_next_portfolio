@@ -2,9 +2,19 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import styles from "./navbar.module.css";
+import smoothScroll from '../Smooth/page';
+
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [color, setColor] = useState(false);
+
+  function handleClick(event: React.MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault();
+    const target = document.querySelector(event.currentTarget.hash);
+    if (target instanceof HTMLElement) {
+      smoothScroll(target, 800);
+    }
+  }
 
   function changeColor() {
     if (window.scrollY >= 90) {
@@ -24,9 +34,19 @@ function Navbar() {
       setOpen(!open);
     }, 900);
   }
+  function handleMobileClick(event: React.MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault();
+    const target = document.querySelector(event.currentTarget.hash);
+    Close();
+    if (target instanceof HTMLElement) {
+      smoothScroll(target, 800);
+    }
+  }
+
 
   return (
     <div
+    id="nav"
       className={
         color
           ? "bg-black sticky top-0 duration-700 transition-all ease-in-out "
@@ -39,23 +59,23 @@ function Navbar() {
         </div>
         {/*Desktop Menu  */}
         <div className="hidden md:block">
-          <ul className="flex gap-6 font-Kurale">
-            <Link className="hover:scale-110" href="#">
+          <ul style={{scrollBehavior:'smooth'}} className="flex gap-6 font-Kurale">
+            <Link className="hover:scale-110" onClick={handleClick} scroll={false} href="/#home">
               <li>Home</li>
             </Link>
-            <Link className="hover:scale-110" href="#">
+            <Link className="hover:scale-110" onClick={handleClick} scroll={false} href="/#About">
               <li>About</li>
             </Link>
-            <Link className="hover:scale-110" href="#">
+            <Link className="hover:scale-110" onClick={handleClick} scroll={false} href="/#Skills">
               <li>Skills</li>
             </Link>
-            <Link className="hover:scale-110" href="#">
+            <Link className="hover:scale-110" onClick={handleClick} scroll={false} href="/#Services">
               <li>Services</li>
             </Link>
-            <Link className="hover:scale-110" href="#">
+            <Link className="hover:scale-110" onClick={handleClick} scroll={false} href="/#Portfolio">
               <li>Portfolio</li>
             </Link>
-            <Link className="hover:scale-110" href="#">
+            <Link className="hover:scale-110" onClick={handleClick} scroll={false} href="/#Contact">
               <li>Contact Me</li>
             </Link>
           </ul>
@@ -74,7 +94,7 @@ function Navbar() {
       <div
         className={
           open
-            ? `${styles.overlayNavbar} z-10 absolute bg-black top-0 w-full `
+            ? `${styles.overlayNavbar} z-{100} absolute bg-black top-0 w-full `
             : "hidden"
         }
       >
@@ -88,22 +108,22 @@ function Navbar() {
         {/* Menu Items  */}
         <div className="h-screen flex  justify-center items-center">
           <ul className="text-white flex gap-4 font-Kurale flex-col text-center">
-            <Link href="#">
+            <Link className="hover:scale-110" onClick={handleMobileClick} scroll={false} href="/#home">
               <li>Home</li>
             </Link>
-            <Link href="#">
+            <Link className="hover:scale-110" onClick={handleMobileClick} scroll={false} href="/#About">
               <li>About</li>
             </Link>
-            <Link href="#">
+            <Link className="hover:scale-110" onClick={handleMobileClick} scroll={false} href="/#Skills">
               <li>Skills</li>
             </Link>
-            <Link href="#">
+            <Link className="hover:scale-110" onClick={handleMobileClick} scroll={false} href="/#Services">
               <li>Services</li>
             </Link>
-            <Link href="#">
+            <Link className="hover:scale-110" onClick={handleMobileClick} scroll={false} href="/#Portfolio">
               <li>Portfolio</li>
             </Link>
-            <Link href="#">
+            <Link className="hover:scale-110" onClick={handleMobileClick} scroll={false} href="/#Contact">
               <li>Contact Me</li>
             </Link>
           </ul>

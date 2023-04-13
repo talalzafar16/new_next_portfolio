@@ -6,7 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  scroll-behavior: smooth;
   height:100vh;
   color: rgb(var(--foreground-rgb));
   background: radial-gradient(#312f2f,black)

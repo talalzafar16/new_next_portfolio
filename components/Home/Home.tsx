@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Home({}: Props) {
   return (
-    <div className="px-5 py-3 flex md:items-center justify-around flex-col-reverse md:flex-row sm:px-8">
+    <div id="home" className="px-5 py-3 flex md:items-center justify-around flex-col-reverse md:flex-row sm:px-8">
       <div className="text-white mt-3 md:mt-0 justify-start gap-3">
         <h1 className="md:text-5xl xl:text-7xl text-4xl font-Kurale lg:text-6xl">Hello! I’m</h1>
         <h2 className="text-SecondaryColor md:mt-2 md:mb-2 lg:text-7xl leading-relaxed font-bold xl:text-8xl text-6xl md:text-6xl font-Kurale">

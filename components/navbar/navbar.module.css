@@ -1,3 +1,7 @@
+#nav {
+  scroll-behavior: smooth;
+}
+
 /* ------------------Navbar animtaion Css-------------- */
 .overlayNavbar {
   animation: open 0.4s linear;

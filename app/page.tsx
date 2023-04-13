@@ -8,7 +8,7 @@ import Contact from "../components/Contact/contact";
 
 export default function page() {
   return (
-    <div>
+    <div style={{scrollBehavior:'smooth'}}>
       <Navbar />
       <Home />
       <About />
