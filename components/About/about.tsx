@@ -3,18 +3,21 @@ import pic from "../../public/second.jpg";
 
 export default function about() {
   return (
-    <div className="px-5 sm:px-8 py-4 flex flex-col gap-6 mt-20 items-center">
+    <div className="px-5 sm:px-8 py-4 flex flex-col md:items-center gap-6 mt-20 items-center ">
       <div className="border-2 flex justify-center items-center gap-3 border-SecondaryColor w-44 sm:w-48 sm:p-2 rounded-3xl p-1">
         <span className="text-white material-icons">person</span>
         <h1 className="text-white font-bold text-center text-xl font-sans">
           ABOUT
         </h1>
       </div>
-      <div className="p-2">
-        <Image src={pic} alt="profile" className="mt-6 rounded-2xl " />
+      <div className="md:flex md:justify-center md:items-center md:flex-row md:gap-6 md:mt-4">
+
+      <div className="p-2 md:p-0">
+        <Image src={pic} alt="profile" className="rounded-2xl " />
       </div>
+      <div className="md:flex md:flex-col md:justify-center items-center">
       <div>
-        <p className="text-white font-Kurale text-justify sm:text-lg">
+        <p className="text-white font-Kurale text-justify md:text-lg sm:text-lg">
         Hello! I&apos;m <span className="text-SecondaryColor">Talal Zafar</span>, a Pakistan-based <span className="text-SecondaryColor">MERN</span> Stack Developer of mobile and online applications. 
         My love is software development, and I am a sophomore studying software engineering at <span className="text-SecondaryColor">NED University.</span> I have spent the last year developing my abilities, learning new technologies, and pursuing a future in <span className="text-SecondaryColor">software development.</span>
         I have worked on a wide range of technologies, as you can see in my skill categories, and I am well-versed in <span className="text-SecondaryColor">OOPs, DBMS, DS, and Web Engineering</span> concepts.
@@ -25,6 +28,8 @@ export default function about() {
         You may find my <span className="text-SecondaryColor">CV</span> below.
         </p>
       </div>
+        </div>
+        </div>
       <div className="flex mt-3 justify-center items-center">
           <button className="group hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-52 sm:w-56 sm:p-2 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
         <span className="  text-black material-icons group-hover:text-SecondaryColor">arrow_circle_down</span>Download CV</button>

@@ -31,8 +31,8 @@ function Services() {
       </div>
       <h1 className="text-white font-Kurale text-3xl sm:text-4xl self-start mt-6">My<span className="text-SecondaryColor"> Specializations</span> here.</h1>
       <div className="w-full mt-4">
-        <div className="flex group hover:border-3 hover:border-SecondaryColor justify-center items-center border-2 w-full h-52 rounded-2xl p-4 sm:p-6">
-          <div className="text-white flex flex-col">
+        <div className="flex group hover:border-3 justify-around hover:border-SecondaryColor md:gap-7 items-center border-2 w-full h-52 rounded-2xl p-4 sm:p-6">
+          <div className="text-white flex flex-col ">
             <h1 className="font-Kurale z-20 text-xl sm:text-2xl font-bold mb-4">
               Website Development
             </h1>
@@ -49,8 +49,8 @@ function Services() {
             code_off
           </span>
         </div>
-        <div className="flex justify-center group items-center hover:border-3 sm:p-6 hover:border-SecondaryColor border-2 w-full h-52 rounded-2xl p-4 mt-10">
-          <div className="text-white flex flex-col">
+        <div className="flex group md:gap-7 items-center justify-around hover:border-3 sm:p-6 hover:border-SecondaryColor border-2 w-full h-52 rounded-2xl p-4 mt-10">
+          <div className="text-white flex flex-col md:justify-between">
             <h1 className="font-Kurale z-20 sm:text-2xl text-xl font-bold mb-4">
               App Development
             </h1>
