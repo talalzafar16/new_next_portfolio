@@ -6,7 +6,7 @@ import React from 'react'
 import {useState,useEffect} from 'react'
 
 
-function services() {
+function Services() {
   const [width,setWidth]=useState(window.innerWidth);
   function handleResize() {
     setWidth(window.innerWidth)
@@ -64,4 +64,4 @@ function services() {
     </div>
   );
 }
-export default services;
+export default Services;
