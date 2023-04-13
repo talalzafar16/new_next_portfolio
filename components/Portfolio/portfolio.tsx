@@ -9,13 +9,13 @@ import styles from "./services.module.css";
 export default function portfolio() {
   return (
     <div className="px-5 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
-      <div className="border-2 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
+      <div className="border-3 xl:w-48 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
         <span className="text-white material-icons">list_alt</span>
-        <h1 className="text-white font-bold text-center text-xl font-sans">
+        <h1 className="text-white font-bold text-center xl:text-2xl text-xl font-sans">
           PORTFOLIO
         </h1>
       </div>
-      <div className="self-start mt-6 sm:text-4xl lg:text-5xl  font-Kurale text-white text-3xl">
+      <div className="self-start mt-6 sm:text-4xl xl:text-5xl  font-Kurale text-white text-3xl">
         Featured <span className="text-SecondaryColor">Projects</span>.
       </div>
       <div className="w-full mt-4 flex flex-col gap-8">

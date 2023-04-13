@@ -4,9 +4,9 @@ import pic from "../../public/second.jpg";
 export default function about() {
   return (
     <div className="px-5 sm:px-8 py-4 flex flex-col md:items-center gap-6 mt-20 items-center ">
-      <div className="border-2 flex justify-center items-center gap-3 border-SecondaryColor w-44 sm:w-48 sm:p-2 rounded-3xl p-1">
+      <div className="border-3 xl:w-48 flex justify-center items-center gap-3 border-SecondaryColor w-44 sm:w-48 sm:p-2 rounded-3xl p-1">
         <span className="text-white material-icons">person</span>
-        <h1 className="text-white font-bold text-center text-xl font-sans">
+        <h1 className="text-white font-bold text-center xl:text-2xl text-xl font-sans">
           ABOUT
         </h1>
       </div>
@@ -28,7 +28,7 @@ export default function about() {
         </p>
       </div>
       <div className="flex mt-8 justify-center items-center lg:justify-start lg:items-start">
-          <button className="group hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-52 sm:w-56 sm:p-2 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
+          <button className="group xl:w-60 xl:h-12 xl:text-3xl hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-52 sm:w-56 sm:p-2 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
         <span className="  text-black material-icons group-hover:text-SecondaryColor">arrow_circle_down</span>Download CV</button>
         </div>
         </div>

@@ -20,16 +20,15 @@ function Services() {
   if(typeof window !== "undefined"){
     window.addEventListener('resize', handleResize);
   }
-  console.log(width)
   return (
     <div className="px-5 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
-      <div className="border-2 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
+      <div className="border-3 xl:w-48 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
         <span className="text-white material-icons">design_services</span>
-        <h1 className="text-white font-bold text-center text-2xl font-sans">
+        <h1 className="text-white font-bold text-center text-xl xl:text-2xl font-sans">
           SERVICES
         </h1>
       </div>
-      <h1 className="text-white font-Kurale text-3xl sm:text-4xl self-start mt-6">My<span className="text-SecondaryColor"> Specializations</span> here.</h1>
+      <h1 className="text-white font-Kurale text-3xl sm:text-4xl xl:text-5xl self-start mt-6">My<span className="text-SecondaryColor"> Specializations</span> here.</h1>
       <div className="w-full mt-4">
         <div className="flex group hover:border-3 justify-around hover:border-SecondaryColor md:gap-7 items-center border-2 w-full h-52 rounded-2xl p-4 sm:p-6">
           <div className="text-white flex flex-col ">
