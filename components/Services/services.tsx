@@ -7,7 +7,7 @@ import {useState,useEffect} from 'react'
 
 
 function services() {
-  let [Width,setWidth]=useState(window.innerWidth);
+  const [width,setWidth]=useState(window.innerWidth);
   function handleResize() {
     setWidth(window.innerWidth)
   }
@@ -36,7 +36,7 @@ function services() {
             <h2 className="font-Kurale sm:text-lg font-base font-bold group-hover:underline group-hover:underline-offset-2">10+ Projects</h2>
           </div>
           <span
-            style={Width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
+            style={width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
             className="z-10 text-SecondaryColor material-icons"
           >
             code_off
@@ -54,7 +54,7 @@ function services() {
             <h2 className="group-hover:underline sm:text-lg font-Kurale font-base font-bold group-hover:underline-offset-2">6+ Projects</h2>
           </div>
           <span
-            style={Width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
+            style={width<641?{ fontSize: "49px" }:{ fontSize: "68px" }}
             className="z-10 text-SecondaryColor material-icons"
           >
             developer_mode
