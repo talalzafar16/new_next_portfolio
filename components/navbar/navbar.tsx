@@ -47,13 +47,10 @@ function Navbar() {
               <li>About</li>
             </Link>
             <Link className="hover:scale-110" href="#">
-              <li>Education</li>
+              <li>Skills</li>
             </Link>
             <Link className="hover:scale-110" href="#">
               <li>Services</li>
-            </Link>
-            <Link className="hover:scale-110" href="#">
-              <li>Skills</li>
             </Link>
             <Link className="hover:scale-110" href="#">
               <li>Portfolio</li>
@@ -98,13 +95,10 @@ function Navbar() {
               <li>About</li>
             </Link>
             <Link href="#">
-              <li>Education</li>
+              <li>Skills</li>
             </Link>
             <Link href="#">
               <li>Services</li>
-            </Link>
-            <Link href="#">
-              <li>Skills</li>
             </Link>
             <Link href="#">
               <li>Portfolio</li>
