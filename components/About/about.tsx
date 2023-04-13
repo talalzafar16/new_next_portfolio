@@ -10,14 +10,13 @@ export default function about() {
           ABOUT
         </h1>
       </div>
-      <div className="md:flex md:justify-center md:items-center md:flex-row md:gap-6 md:mt-4">
-
+      <div className="lg:gap-12 md:flex md:justify-center md:items-start lg:items-center md:flex-row md:gap-6 md:mt-4">
       <div className="p-2 md:p-0">
-        <Image src={pic} alt="profile" className="rounded-2xl " />
+        <Image src={pic} alt="profile" className="h-full rounded-2xl " />
       </div>
       <div className="md:flex md:flex-col md:justify-center items-center">
       <div>
-        <p className="text-white font-Kurale text-justify md:text-lg sm:text-lg">
+        <p className="lg:text-xl mt-6 md:mt-0 text-white font-Kurale text-justify md:text-lg sm:text-lg">
         Hello! I&apos;m <span className="text-SecondaryColor">Talal Zafar</span>, a Pakistan-based <span className="text-SecondaryColor">MERN</span> Stack Developer of mobile and online applications. 
         My love is software development, and I am a sophomore studying software engineering at <span className="text-SecondaryColor">NED University.</span> I have spent the last year developing my abilities, learning new technologies, and pursuing a future in <span className="text-SecondaryColor">software development.</span>
         I have worked on a wide range of technologies, as you can see in my skill categories, and I am well-versed in <span className="text-SecondaryColor">OOPs, DBMS, DS, and Web Engineering</span> concepts.
@@ -28,11 +27,11 @@ export default function about() {
         You may find my <span className="text-SecondaryColor">CV</span> below.
         </p>
       </div>
-        </div>
-        </div>
-      <div className="flex mt-3 justify-center items-center">
+      <div className="flex mt-8 justify-center items-center lg:justify-start lg:items-start">
           <button className="group hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-52 sm:w-56 sm:p-2 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
         <span className="  text-black material-icons group-hover:text-SecondaryColor">arrow_circle_down</span>Download CV</button>
+        </div>
+        </div>
         </div>
     </div>
   );

@@ -1,8 +1,5 @@
 "use client";
 import styles from "./services.module.css";
-// function send(){
-  // console.log("msg sent")
-// }
 
 function contact() {
   return (
@@ -18,19 +15,19 @@ function contact() {
         <h1 className="text-white font-bold font-Kurale text-xl mt-2 sm:text-2xl">talalzafar84@gmail.com</h1>
       </div>
       <div className="w-full mt-4 mmd:p-4 flex flex-col gap-6 md:flex-wrap md:flex-row md:justify-between md:flex">
-        <div className="flex md:w-2/5 flex-col-reverse gap-1 font-Kurale">
+        <div className="flex md:w-5/12 flex-col-reverse gap-1 font-Kurale">
         <input className="text-lg text-white input bg-transparent border-b-2 focus:border-b-SecondaryColor focus:border-b-3 border-b-white h-9 outline-0" placeholder="Enter Your Name"/>
         <label className=" text-white text-xl">Full Name</label>
         </div>
-        <div className="flex md:w-2/5 flex-col-reverse gap-1 font-Kurale">
+        <div className="flex md:w-5/12 flex-col-reverse gap-1 font-Kurale">
         <input className="text-lg text-white input bg-transparent border-b-2 focus:border-b-SecondaryColor focus:border-b-3 border-b-white h-9 outline-0" placeholder="Enter Your Email"/>
         <label className=" text-white text-xl">Email</label>
         </div>
-        <div className="flex md:w-2/5 flex-col-reverse gap-1 font-Kurale">
+        <div className="flex md:w-5/12 flex-col-reverse gap-1 font-Kurale">
         <input className="text-lg text-white input bg-transparent border-b-2 focus:border-b-SecondaryColor focus:border-b-3 border-b-white h-9 outline-0" placeholder="xxxx-xxxxxxx"/>
         <label className=" text-white text-xl">Contact</label>
         </div>
-        <div className="flex md:w-2/5 flex-col-reverse gap-1 font-Kurale">
+        <div className="flex md:w-5/12 flex-col-reverse gap-1 font-Kurale">
         <input className="text-lg text-white input bg-transparent border-b-2 focus:border-b-SecondaryColor focus:border-b-3 border-b-white h-9 outline-0" placeholder="Write Here..."/>
         <label className=" text-white text-xl">Subject</label>
         </div>
