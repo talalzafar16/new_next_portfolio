@@ -7,13 +7,20 @@ import {useState,useEffect} from 'react'
 
 
 function Services() {
-  const [width,setWidth]=useState(window.innerWidth);
+  const [width,setWidth]=useState(10);
+  useEffect(() => {
+    if(typeof window !== "undefined"){
+      setWidth(window.innerWidth)
+    }
+  },[])  
   function handleResize() {
+    if(typeof window !== "undefined"){ 
     setWidth(window.innerWidth)
-  }
+  }}
   if(typeof window !== "undefined"){
     window.addEventListener('resize', handleResize);
   }
+  console.log(width)
   return (
     <div className="px-5 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
       <div className="border-2 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
