@@ -7,7 +7,7 @@ function Contact() {
   type Data={
       Full_Name:string;
       Email:string;
-      Contact:number;
+      Contact:string;
       Subject:string;
       Message:string
   }
