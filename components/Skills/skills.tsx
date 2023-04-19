@@ -16,7 +16,7 @@ import styles from "./skills.module.css";
 
 export default function skills() {
   return (
-    <div id="Skills" className="z-0 px-5 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
+    <div id="Skills" className="z-0 px-5 py-4 flex flex-col gap-6 mt-20  items-center sm:px-8">
       <div className="border-3 xl:w-48 flex justify-center sm:w-48 sm:p-2 items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
         <span className="text-white material-icons">psychology</span>
         <h1 className="text-white xl:text-2xl font-bold text-center text-xl font-sans">

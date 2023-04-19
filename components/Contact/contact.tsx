@@ -42,7 +42,7 @@ function contact() {
   }
 
   return (
-    <div id="Contact" className="px-5 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
+    <div id="Contact" className="px-5 md:px-11 py-4 flex flex-col gap-6 mt-20 items-center sm:px-8">
       <div className="border-3 xl:w-48 flex sm:w-48 sm:p-2 justify-center items-center gap-3 border-SecondaryColor w-44 rounded-3xl p-1">
         <span className="text-white material-icons">mail</span>
         <h1 className="text-white font-bold text-center xl:text-2xl text-xl font-sans">

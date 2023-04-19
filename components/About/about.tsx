@@ -3,7 +3,7 @@ import pic from "../../public/second.jpg";
 
 export default function about() {
   return (
-    <div id="About" className="px-5 sm:px-8 py-4 flex flex-col md:items-center gap-6 mt-20 items-center ">
+    <div id="About" className="px-5 md:px-11 sm:px-8 py-4 flex flex-col md:items-center gap-6 mt-20 items-center ">
       <div className="border-3 xl:w-48 flex justify-center items-center gap-3 border-SecondaryColor w-44 sm:w-48 sm:p-2 rounded-3xl p-1">
         <span className="text-white material-icons">person</span>
         <h1 className="text-white font-bold text-center xl:text-2xl text-xl font-sans">
