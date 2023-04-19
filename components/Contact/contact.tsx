@@ -3,7 +3,7 @@ import styles from "./services.module.css";
 import React, { useEffect, useState,} from "react";
 import emailjs from '@emailjs/browser';
 
-function contact() {
+function Contact() {
   type Data={
       Full_Name:string;
       Email:string;
@@ -82,4 +82,4 @@ function contact() {
     </div>
   );
 }
-export default contact;
+export default Contact;
