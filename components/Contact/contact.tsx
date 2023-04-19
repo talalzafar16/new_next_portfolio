@@ -14,7 +14,7 @@ function Contact() {
 
   let [name,setName]=useState("");
   let [email,setEmail]=useState("");
-  let [contact,setContact]=useState(0);
+  let [contact,setContact]=useState("");
   let [message,setMessage]=useState("");
   let [subject,setSubject]=useState("");
   async function Submit(){
