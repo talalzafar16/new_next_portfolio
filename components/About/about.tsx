@@ -28,7 +28,7 @@ export default function about() {
         </p>
       </div>
       <div className="flex mt-8 justify-center items-center lg:justify-start lg:items-start">
-          <a href="../../assets/cv/new.pdf" download>
+          <a href="/new.pdf" download>
           <button className="group xl:w-60 xl:h-12 xl:text-3xl hover:border-3 hover:border-SecondaryColor hover:bg-transparent hover:text-SecondaryColor w-52 sm:w-56 sm:p-2 flex justify-center items-center gap-3 rounded-2xl bg-SecondaryColor h-10 font-bold text-2xl font-Kurale">
         <span className="  text-black material-icons group-hover:text-SecondaryColor">arrow_circle_down</span>Download CV</button>
           </a>
