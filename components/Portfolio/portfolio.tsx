@@ -1,9 +1,9 @@
 import Image from "next/image";
-import img1 from "../../public/portfolio1.jpg";
-import img2 from "../../public/portfolio2.jpg";
-import img3 from "../../public/portfolio3.jpg";
-import img4 from "../../public/portfolio4.jpg";
-import img5 from "../../public/portfolio5.jpg";
+import img1 from "../../assets/images/portfolio1.jpg";
+import img2 from "../../assets/images/portfolio2.jpg";
+import img3 from "../../assets/images/portfolio3.jpg";
+import img4 from "../../assets/images/portfolio4.jpg";
+import img5 from "../../assets/images/portfolio5.jpg";
 import styles from "./services.module.css";
 
 export default function portfolio() {
